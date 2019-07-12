@@ -4,6 +4,9 @@ Vue.use(Router)
 
 import nickname from "./views/nickname.vue";
 import setPassword from "./views/setPassword.vue";
+import language from "./views/language.vue";
+import register from "./views/register.vue";
+import getMoney from "./views/getMoney.vue";
 
 export default new Router({
   mode: 'history',
@@ -11,5 +14,10 @@ export default new Router({
   routes: [
     {component:nickname,path:'/nickname'},
     {component:setPassword,path:'/setPassword'}, 
+    {component:language,path:'/language'}, 
+    {component:register,path:'/register'}, 
+    {component:getMoney,path:'/getMoney'}, 
   ]
 })
+
+
